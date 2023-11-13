@@ -79,6 +79,7 @@ public class MyWordCountApp {
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
 		}
-		System.out.println("Print word counts alphabet: ");myWC.printWordCountsAlphabet();
+		System.out.println("Print word counts alphabet: ");
+		myWC.printWordCountsAlphabet();
 	}
 }
